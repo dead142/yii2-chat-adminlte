@@ -76,11 +76,11 @@ class Chat extends \yii\db\ActiveRecord {
                 }
                     
                 $output .= '<div class="item">
-                <img class="online" alt="user image" src="' . $avatar . '">
+              
                 <p class="message">
                     <a class="name" href="#">
                         <small class="text-muted pull-right" style="color:green"><i class="fa fa-clock-o"></i> ' . \kartik\helpers\Enum::timeElapsed($model->updateDate) . '</small>
-                        ' . $model->user->username . '
+                         ' . $model->user->username .'
                     </a>
                    ' . $model->message . '
                 </p>
