@@ -1,6 +1,9 @@
 # yii2-chat-adminlte
 yii2 chat widget widget admin lte
 
+## Fix bug yii2-chat-adminlte  Trying to get property of non-object  $model->user->username
+## delete avatar
+
 add via composer :
 <p>"sintret/yii2-chat-adminlte": "dev-master"</p>
 
