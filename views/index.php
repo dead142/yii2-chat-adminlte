@@ -1,8 +1,5 @@
 <div class="box box-success">
-    <div class="box-header ui-sortable-handle" style="cursor: move;">
-        <i class="fa fa-comments-o"></i>
-        <h3 class="box-title">Chat</h3>
-    </div>
+    
     <div class="slimScrollDiv" style="position: relative; overflow: scroll; width: auto; height: 350px;">
         <div id="chat-box" class="box-body chat" style="overflow: hidden; width: auto; height: 350px;">
             <?= $data ?>
