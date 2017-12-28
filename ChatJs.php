@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class ChatJs extends AssetBundle {
 
-    public $sourcePath = '@vendor/sintret/yii2-chat-adminlte/assets';
+    public $sourcePath = '@vendor/sintret-2017/yii2-chat-adminlte/assets';
     public $js = [
         'js/chat.js',
     ];
