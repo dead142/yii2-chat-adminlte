@@ -17,7 +17,7 @@ use sintret\chat\models\Chat;
  */
 class ChatRoom extends Widget {
 
-    public $sourcePath = '@vendor/sintret/yii2-chat-adminlte/assets';
+    public $sourcePath = '@vendor/sintret-2017/yii2-chat-adminlte/assets';
     public $css = [
     ];
     public $js = [ // Configured conditionally (source/minified) during init()
