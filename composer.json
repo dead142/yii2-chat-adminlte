@@ -1,5 +1,5 @@
 {
-    "name": "sintret/yii2-chat-adminlte-2017",
+    "name": "sintret-2017/yii2-chat-adminlte",
     "description": "Yii2 extension for Chat plugin with admin lte",
     "keywords": [
         "yii2",
@@ -13,8 +13,8 @@
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/sintret/yii2-chat-adminlte/issues",
-        "source": "https://github.com/sintret/yii2-chat-adminlte"
+        "issues": "https://github.com/dead142/yii2-chat-adminlte/issues",
+        "source": "https://github.com/dead142/yii2-chat-adminlte"
     },
     "authors": [
         {
