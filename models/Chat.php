@@ -3,6 +3,7 @@
 namespace sintret\chat\models;
 
 use Yii;
+use yii\helpers\VarDumper;
 
 /**
  * This is the model class for table "chat".
@@ -67,8 +68,10 @@ class Chat extends \yii\db\ActiveRecord {
         $userField = $this->userField;
         $output = '';
         $models = Chat::records();
+
         if ($models)
             foreach ($models as $model) {
+                $userName =  $model->user ? $model->user->username  : 'Пользователь удален';
                 if (isset($model->user->$userField)) {
                     $avatar = $model->user->$userField;
                 } else{
@@ -80,7 +83,10 @@ class Chat extends \yii\db\ActiveRecord {
                 <p class="message">
                     <a class="name" href="#">
                         <small class="text-muted pull-right" style="color:green"><i class="fa fa-clock-o"></i> ' . \kartik\helpers\Enum::timeElapsed($model->updateDate) . '</small>
-                         ' . $model->user->username .'
+                       
+                         '. $userName . '
+                           
+                         
                     </a>
                    ' . $model->message . '
                 </p>
