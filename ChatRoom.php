@@ -94,7 +94,7 @@ class ChatRoom extends Widget {
                 exit(0);
             }
         } else {
-            echo $model->data();
+            echo $model->data(); 
         }
     }
 
